@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#B4EDE8"
+    android:orientation="vertical">
+
+<!-- Main content layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tasks List"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#279187"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="@color/black"
+
+            >
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/insertRecent2">
+                <?xml version="1.0" encoding="utf-8"?>
+<!--                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--                    android:id="@+id/chatrecive"-->
+<!--                    android:weightSum="2">-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_marginBottom="15dp"-->
+
+
+<!--                        android:padding="7dp"-->
+<!--                        >-->
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:id="@+id/profilepic"-->
+
+<!--                            app:strokeWidth="3dp"-->
+<!--                            app:strokeColor="#FFC90A"-->
+<!--                            app:shapeAppearanceOverlay="@style/circleImageView"-->
+<!--                            android:src="@drawable/profilepic"-->
+<!--                            />-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:orientation="horizontal"-->
+<!--                            android:layout_marginLeft="10dp"-->
+<!--                            android:background="@drawable/text_boarder"-->
+<!--                            android:weightSum="2"-->
+<!--                            android:padding="10dp"-->
+<!--                            android:layout_marginRight="10dp">-->
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_weight="1.5"-->
+<!--                                android:orientation="vertical">-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:id="@+id/task"-->
+<!--                                android:textSize="20sp"-->
+<!--                                android:text="vdsvcxzcmxzc asdsd ad asd asd"-->
+<!--                                />-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:id="@+id/time"-->
+<!--                                android:text="vdsvcxzcmxzc"-->
+<!--                                android:textSize="20sp"-->
+<!--                                />-->
+<!--                            </LinearLayout>-->
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:orientation="horizontal"-->
+<!--                                android:layout_weight="0.5"-->
+<!--                                android:gravity="right"-->
+<!--                                android:layout_gravity="right"-->
+
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="40dp"-->
+<!--                                    android:layout_height="40dp"-->
+<!--                                    android:src="@drawable/edit"-->
+<!--                                    android:id="@+id/change"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="40dp"-->
+<!--                                    android:layout_marginLeft="15dp"-->
+<!--                                    android:layout_height="40dp"-->
+<!--                                    android:src="@drawable/done"-->
+<!--                                    android:id="@+id/done"-->
+<!--                                    />-->
+<!--                            </LinearLayout>-->
+
+<!--                        </LinearLayout>-->
+
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- Footer layout -->
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    android:gravity="right|bottom">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:id="@+id/plus"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+
+            android:background="#D3D6D6"
+            android:src="@drawable/add"
+            app:shapeAppearanceOverlay="@style/circleImageView"
+            app:strokeColor="#037369"
+            app:strokeWidth="4dp" /></LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>
